@@ -35,7 +35,7 @@ Fill in the sections below yourself, then:
 ## 🔥LAB652: Delegate complex work: Hands-on with Copilot Cowork
 ### Session description
 
-Add your session description here. Keep it concise — 2-3 sentences about what attendees will learn and why it matters.
+Agent usage is up 15× year over year, and more multi-step workflows can now be delegated end to end. In this hands-on session, build a real workflow with Copilot Cowork: turn a complex process into a skill, extend it with plugins and automations, and see how Cowork plans, executes, and delivers work across systems and apps. Leave with a publishable skill and a practical model for deciding what to delegate, how to scope it, and how to move work from intent to done.
 
 ### 🚀 Getting started
 
