@@ -75,14 +75,16 @@ You see Cowork in the first tab and the 2 files in OneDrive in the second tab.
     +++Make this week's project status report. Use Project-Tracker.xlsx and Meeting-Notes.docx in my OneDrive. Make the report a Word document with 3 parts: summary, status of each project, and risks. Then make an email draft to me with the report attached. Do not send the email.+++
 
 3. [] Press **Enter**.
-4. [] Read the steps that Cowork shows while it works. The side panel shows the progress.
+4. [] Read the steps that Cowork shows while it works. The **Workspace** panel on the right shows the progress in **Steps**.
 5. [] Do not type while Cowork works. You can add messages, but for this lab, wait.
 6. [] While you wait, read "About skills" at the end of this exercise.
-7. [] When Cowork stops, find the status report in the side panel, in **Output folder**.
+7. [] When Cowork stops, find the status report in the **Workspace** panel, in **Output**.
 8. [] Open the status report.
 9. [] Open Outlook in a new tab: +++https://outlook.cloud.microsoft+++. Find the email draft in **Drafts**.
 
 You see a Word document with a summary, the status of each project, and the risks. You also see an email draft with the report attached.
+
+> [!note] Cowork can tell you some things to check, for example that the meeting notes have a different date, or that some table text has a different color. This is normal. You do not need to fix these things for this lab.
 
 > [!hint] If Cowork does not stop after 10 minutes, ask a proctor for the sample report.
 
@@ -99,29 +101,28 @@ You see a Word document with a summary, the status of each project, and the risk
     +++Make a skill from the steps that you used for this status report. Name the skill weekly-status-report.+++
 
 2. [] Press **Enter**.
-3. [] Cowork asks you some questions. Use these answers:
+3. [] Cowork can ask you some questions. If it asks, use these answers:
 
     | If Cowork asks about | Type |
     |---|---|
     | Name | +++weekly-status-report+++ |
     | Description | +++Use this skill when I ask for the weekly project status report.+++ |
-    | Category | +++Reports+++ |
     | Instructions | +++Use Project-Tracker.xlsx and Meeting-Notes.docx in my OneDrive. Write a short and clear report with a summary, the status of each project, and the risks. Always show late projects first. Never send the email.+++ |
 
     If Cowork asks other questions, answer in your own words.
 
-4. [] Read the draft skill. Find the **Name** and the **Description**.
-5. [] When the skill is correct, tell Cowork to save it. If Cowork shows an approval card, select **Approve**.
-6. [] Read the **Skill Report**. Find the score from 0 to 100.
-7. [] If the score is less than 70, ask Cowork to make the skill better. Do this a maximum of 2 times.
-8. [] Start a new task.
-9. [] Type this prompt, and press **Enter**:
+4. [] Cowork shows an approval card to save the skill (**Copy file**). Select **Approve**.
+5. [] Wait until Cowork says that it made the skill.
+6. [] In the **Workspace** panel, in **Output**, select **skill-quality-report**. This is the **Skill Report**.
+7. [] Find the score from 0 to 100. Then close the Skill Report with **X**.
+8. [] If the score is less than 70, ask Cowork to make the skill better. Do this a maximum of 2 times.
+9. [] Select **New task**.
+10. [] Type this prompt, and press **Enter**:
 
     +++Make this week's project status report.+++
 
-10. [] In the side panel, in **Skills**, find **weekly-status-report**.
-11. [] Select **Customize**.
-12. [] Select **Skills**. Find your skill in the list.
+11. [] In the **Workspace** panel, in **Plugins**, find **weekly-status-report**.
+12. [] Select **Customize**. Find **weekly-status-report** in **Added**.
 
 Cowork used your skill, and you did not type the skill name.
 
@@ -134,21 +135,21 @@ Cowork used your skill, and you did not type the skill name.
 # Exercise 3: Add a plugin (15 minutes)
 
 1. [] Select **Customize**.
-2. [] Select **Plugins**.
-3. [] Select **Upload plugin**.
-4. [] Go to **Desktop** > **LAB652**, and select the file **LAB652-plugin.zip**.
-5. [] In the **Share** dialog, select **Only you**.
-6. [] Select **Apply**.
-7. [] Start a new task, so that Cowork finds the new plugin.
+2. [] At the top right, select **Add**, and then select **Upload**.
+3. [] Select **choose a file**. Go to **Desktop** > **LAB652**, and select the file **LAB652-plugin.zip**. Select **Open**.
+4. [] In the **Publish** window, select **Only you**.
+5. [] Select **Publish**.
+6. [] Make sure that you see **LAB652 Status Report Tips** in **Added**.
+7. [] Select **New task**, so that Cowork finds the new plugin.
 8. [] Type this prompt, and press **Enter**:
 
     +++Make this week's project status report. Add 1 tip from Microsoft Learn about how to write a good status report.+++
 
-9. [] In the side panel, find the plugin name in **Skills**, or in the steps.
+9. [] In the **Workspace** panel, in **Plugins**, find **LAB652 Status Report Tips**.
 
 The status report has a tip from Microsoft Learn. Cowork used information that is not in your files.
 
-> [!hint] If Cowork shows **Connect**, select **Connect**. You do not need to sign in. If you do not see the plugin, ask a proctor.
+> [!hint] If Cowork says that Word blocked changes for some minutes, wait 2 minutes. Then type +++Try again+++ and press **Enter**. If Cowork shows **Connect**, select **Connect**. You do not need to sign in. If you do not see the plugin, ask a proctor.
 
 > [!knowledge] **Key point:** this plugin has 1 skill and 1 connector. The connector gets information from the Microsoft Learn MCP server. Your IT admin can make plugins available to all users in your organization.
 
@@ -160,41 +161,41 @@ The status report has a tip from Microsoft Learn. Cowork used information that i
 
     +++Run the weekly status report every Monday at 09:00. Send the report to me by email.+++
 
-2. [] Cowork shows the schedule. Make sure that the day is Monday and the time is 09:00.
-3. [] Select **Activate and run now**. Cowork does the job 1 time now to test it.
-4. [] Cowork shows an approval card to send the email. On the approval card, open **More options**.
-5. [] Select **Only to** *your lab email address*.
-6. [] Open your inbox. Find the email with the status report.
-7. [] Go back to Cowork. Select **Automations**.
-8. [] Select **Manage schedules**.
-9. [] Find the automation for the weekly status report.
-10. [] Select **Delete**. The automation will not run after the lab.
+2. [] Cowork shows the card **Create recurring task**. Make sure that the day is **Monday** and the time is **9:00 AM**. Select **Next**.
+3. [] Cowork shows **Review permissions**. Next to **Outlook**, make sure that **Allow** is selected. Cowork can then send the report to you when you are not there.
+4. [] Make sure that **Run once now** is selected. Cowork does the job 1 time now to test it.
+5. [] Select **Schedule**.
+6. [] Wait until Cowork says that it sent the email. This can take 5 minutes.
+7. [] Go to the Outlook tab. Open **Inbox**. Find the email with the status report.
+8. [] Go back to Cowork. Select **Automations**.
+9. [] Find **Weekly Project Status Report** in **Active**.
+10. [] Point to the automation, and select **More actions** (**...**). Select **Delete**, and then select **Delete** again. The automation will not run after the lab.
 
 You received the status report by email. You know how to make Cowork do a job on a schedule.
 
-> [!hint] If Cowork asks for approval again, select **Only to** *your lab email address* again. If this does not help, ask a proctor.
+> [!hint] If you do not see the email after 10 minutes, ask a proctor.
 
-> [!knowledge] **Key point:** use **Activate and run now** to test an automation. Give your approval during the test. Your choice applies to this task. If Cowork asks again later, give your approval again.
+> [!knowledge] **Key point:** an automation runs when you are not there. In **Review permissions**, you decide which actions Cowork can do without asking you. Select **Ask** if you want Cowork to ask you each time.
 
 ===
 
 # Exercise 5: Share the skill and find work for Cowork (10 minutes)
 
 1. [] Select **Customize**.
-2. [] Select **Skills**.
-3. [] Select your skill **weekly-status-report**.
-4. [] Select **Share**.
-5. [] Select **Specific users in your organization**.
-6. [] Optional: type the lab email address of a person near you.
-7. [] Select **Apply**.
-8. [] Copy the link in the **Share** dialog. You can send this link to the people that you shared the skill with.
+2. [] In **Added**, select your skill **weekly-status-report**.
+3. [] At the top right, select the **Share** icon.
+4. [] Select **Specific users in your organization**.
+5. [] Type +++Megan+++, and select **Megan Bowen**. Megan is a colleague in your lab organization.
+6. [] Select **Publish**.
+7. [] Select the **Share** icon again. You see Megan Bowen in the list.
+8. [] Select **Copy this link**. You can send this link to the people that you shared the skill with. Then select **Cancel**.
 9. [] Read the checklist below.
 10. [] Think of 1 job from your work.
 11. [] Use the checklist to decide if Cowork can do the job.
 
 You shared a skill, and you know how to find work for Cowork.
 
-> [!hint] If you cannot select **Share**, ask a proctor.
+> [!hint] If you cannot select **Publish**, make sure that you selected a person. If this does not help, ask a proctor.
 
 > [!knowledge] **Key point:** you can keep a skill for only you, or share it with specific people in your organization. If you change a shared skill, share it again.
 
