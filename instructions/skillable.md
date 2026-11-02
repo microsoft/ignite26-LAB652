@@ -45,8 +45,10 @@ You are a project lead at Contoso. Each Monday, you write a project status repor
 
 1. [] Open the browser.
 2. [] Go to +++https://copilot.cloud.microsoft/cowork+++.
-3. [] Sign in with your **User name** and **Temporary Access Pass** from the first page of these instructions.
-4. [] Make sure that you see a box where you can type a prompt.
+3. [] Select **Sign in** at the top of the page.
+4. [] Sign in with your **User name** and **Temporary Access Pass** from the first page of these instructions. If you see **Stay signed in?**, select **Yes**.
+5. [] If you see a welcome window, select **X** to close it.
+6. [] Make sure that you see a box where you can type a prompt.
 
 > [!alert] If you see **Request access**, Cowork is not ready for your account. Ask a proctor. Do not select **Request access**.
 
