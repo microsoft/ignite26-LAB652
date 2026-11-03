@@ -17,7 +17,7 @@ You use these details to sign in to Microsoft 365:
 
 > [!note] Text like +++this+++ is type text. Select it, and the lab types it for you.
 
-Use the admin details only if Exercise 0 tells you to:
+You use the admin details 1 time, in Exercise 0:
 
 - **Admin user name**: +++@lab.CloudCredential(WWLM365E7).AdministrativeUsername+++
 - **Admin Temporary Access Pass**: +++@lab.Variable(TAP2)+++
@@ -44,35 +44,33 @@ You are a project lead at Contoso. Each Monday, you write a project status repor
 
 ===
 
-# Exercise 0: Get ready (5 minutes)
+# Exercise 0: Get ready (10 minutes)
+
+Your lab organization is new. Before you can use Cowork, you turn on Copilot credits for the organization as the admin. You do this 1 time.
+
+### Turn on Cowork for your lab organization
+
+1. [] Open the browser.
+2. [] Press **Ctrl+Shift+N** to open an InPrivate window.
+3. [] Go to +++https://admin.cloud.microsoft/#/copilot/costmanagement+++.
+4. [] Sign in with your **Admin user name** and **Admin Temporary Access Pass** from the first page of these instructions. If you see **Stay signed in?**, select **No**.
+5. [] Select **Get started**.
+6. [] Select **Use Capacity Packs**. Do not change the other settings.
+7. [] Select **Activate**.
+8. [] Make sure that you see **AI experiences enabled by usage-based billing are now available to all users**.
+9. [] Close the InPrivate window.
+
+> [!hint] If you do not see **Get started**, the credits are already on. Close the InPrivate window and continue.
 
 ### Open Cowork
 
-1. [] Open the browser.
-2. [] Go to +++https://copilot.cloud.microsoft/cowork+++.
-3. [] Select **Sign in** at the top of the page.
-4. [] Sign in with your **User name** and **Temporary Access Pass** from the first page of these instructions. If you see **Stay signed in?**, select **Yes**.
-5. [] If you see a welcome window, select **X** to close it.
-6. [] Make sure that you see a box where you can type a prompt.
+1. [] In the browser, go to +++https://copilot.cloud.microsoft/cowork+++.
+2. [] Select **Sign in** at the top of the page.
+3. [] Sign in with your **User name** and **Temporary Access Pass** from the first page of these instructions. If you see **Stay signed in?**, select **Yes**.
+4. [] If you see a welcome window, select **X** to close it.
+5. [] Make sure that you see a box where you can type a prompt.
 
-> [!alert] If you see **Request access**, Cowork is not ready for your account. Do not select **Request access**. Do the steps in **Turn on Cowork** below.
-
-### Turn on Cowork (only if you see Request access)
-
-You turn on Copilot credits for your lab organization as the admin. You do this 1 time.
-
-1. [] Press **Ctrl+Shift+N** to open an InPrivate window.
-2. [] Go to +++https://admin.cloud.microsoft/#/copilot/costmanagement+++.
-3. [] Sign in with your **Admin user name** and **Admin Temporary Access Pass** from the first page of these instructions.
-4. [] Select **Get started**.
-5. [] Select **Use Capacity Packs**. Do not change the other settings.
-6. [] Select **Activate**.
-7. [] Make sure that you see **AI experiences enabled by usage-based billing are now available to all users**.
-8. [] Close the InPrivate window.
-9. [] Do the steps in **Put the lab files in OneDrive** now. Cowork needs 15 to 30 minutes before it is ready.
-10. [] Then go back to the Cowork tab, and press **F5** to refresh the page. Do this every 5 minutes until you see the box where you can type a prompt.
-
-> [!hint] If you do not see **Get started**, the credits are already on. Close the InPrivate window and wait. If you still see **Request access** after 30 minutes, ask a proctor.
+> [!alert] If you see **Request access**, Cowork is not ready yet. Do not select **Request access**. Do the steps in **Put the lab files in OneDrive** now. Then go back to the Cowork tab and press **F5** to refresh the page. Do this every 2 minutes until you see the box where you can type a prompt. If you still see **Request access** after 15 minutes, ask a proctor.
 
 ### Put the lab files in OneDrive
 
