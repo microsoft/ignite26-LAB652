@@ -64,9 +64,9 @@ You are a project lead at Contoso. Each Monday, you write a project status repor
 1. [] Open a new browser tab.
 2. [] Go to +++https://onedrive.cloud.microsoft+++. You are already signed in.
 3. [] If you see **Get more from your files with Copilot in OneDrive**, select **Not now**.
-4. [] Select **Create or upload**, and then select **Files upload**.
+4. [] Select **Create or upload**, and then select **Files upload**. If a tip window opens, for example **Build your own AI assistant**, select **Dismiss** and try again.
 5. [] Go to **Desktop** > **LAB652**.
-6. [] Select these 2 files: **Project-Tracker.xlsx** and **Meeting-Notes.docx**. Select **Open**.
+6. [] Select **Meeting-Notes**. Hold **Ctrl** and select **Project-Tracker**. Select **Open**.
 7. [] Wait until the upload is complete. You see the 2 files in **My files**.
 
 You see Cowork in the first tab and the 2 files in OneDrive in the second tab.
@@ -162,7 +162,7 @@ Cowork used your skill, and you did not type the skill name.
 
 1. [] On the left, select **Customize** (or **Plugins**).
 2. [] At the top right, select **Add**, and then select **Upload**.
-3. [] Select **choose a file**. Go to **Desktop** > **LAB652**, and select the file **LAB652-plugin.zip**. Select **Open**.
+3. [] Select **choose a file**. Go to **Desktop** > **LAB652**. Select **LAB652-plugin** 1 time (do not double-click it), and then select **Open**.
 4. [] In the **Publish** window, select **Only you**.
 5. [] Select **Publish**.
 6. [] Make sure that you see **LAB652 Status Report Tips** in **Added**.
