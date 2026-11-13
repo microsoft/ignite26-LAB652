@@ -48,11 +48,14 @@ You are a project lead at Contoso. Each Monday, you write a project status repor
 
 ### Open Cowork
 
-1. [] In the browser, go to +++https://copilot.cloud.microsoft/cowork+++.
-2. [] Select **Sign in** at the top of the page.
-3. [] Sign in with your **User name** and **Temporary Access Pass** from the first page of these instructions. If you see **Stay signed in?**, select **Yes**.
-4. [] If you see a welcome window, select **X** to close it.
-5. [] Make sure that you see a box where you can type a prompt.
+1. [] On the desktop, double-click **Microsoft Edge**. If you see **Personalize your feed**, select **X** to close it.
+2. [] Go to +++https://copilot.cloud.microsoft/cowork+++.
+3. [] Select **Try Cowork**. If you see **Sign in** instead, select **Sign in**.
+4. [] Sign in with your **User name** and **Temporary Access Pass** from the first page of these instructions.
+5. [] If Edge asks **Save your password?**, select **Not now**. If Edge asks to **Sign in to Microsoft Edge**, select **No, thanks**.
+6. [] If you see **Stay signed in?**, select **Yes**.
+7. [] If you see a welcome window, select **X** to close it.
+8. [] Make sure that you see a box where you can type a prompt.
 
 > [!alert] If you see **Request access**, do not select it. Do the steps in **Put the lab files in OneDrive** first. Then do the steps in **Only if you see Request access** at the end of this exercise.
 
@@ -74,17 +77,18 @@ You see Cowork in the first tab and the 2 files in OneDrive in the second tab.
 
 Your lab organization is new. The lab turns on Copilot credits for you when it starts. If Cowork still shows **Request access**, turn on the credits yourself as the admin. Skip these steps if you see the box where you can type a prompt.
 
-1. [] Open a new browser tab.
+1. [] In Edge, press **Ctrl+Shift+N** to open an InPrivate window.
 2. [] Go to +++https://admin.cloud.microsoft/#/copilot/costmanagement+++.
-3. [] If you are signed in as Alex, select the picture at the top right, and select **Sign in with a different account**.
-4. [] Sign in with your **Admin user name** and **Admin Temporary Access Pass** from the first page of these instructions. If you see **Stay signed in?**, select **No**.
+3. [] Sign in with your **Admin user name** and **Admin Temporary Access Pass** from the first page of these instructions. If you see **Stay signed in?**, select **No**.
+4. [] If you see a tip window, for example **Tailor search results for your users**, select **X** to close it.
 5. [] Select **Get started**.
-6. [] Select **Use Capacity Packs**. Do not change the other settings.
+6. [] Make sure that **Use Capacity Packs** is selected. Do not change the other settings.
 7. [] Select **Activate**.
 8. [] Make sure that you see **AI experiences enabled by usage-based billing are now available to all users**.
-9. [] Close this tab. Go back to the Cowork tab and press **F5**. Do this every 2 minutes until you see the box where you can type a prompt.
+9. [] Close the InPrivate window.
+10. [] Wait. This can take 30 minutes. Every 5 minutes, open a new tab and go to +++https://copilot.cloud.microsoft/cowork+++. When you see the box where you can type a prompt, start Exercise 1 in that tab.
 
-> [!hint] If you do not see **Get started**, the credits are already on. If you still see **Request access** after 15 minutes, ask a proctor.
+> [!hint] If you do not see **Get started**, the credits are already on. Pressing **F5** is not enough, because the old tab does not update. Always open a new tab. If you still see **Request access** after 40 minutes, ask a proctor.
 
 ===
 
@@ -138,13 +142,13 @@ You see a Word document with a summary, the status of each project, and the risk
 6. [] In the **Workspace** panel, in **Output**, select **skill-quality-report**. This is the **Skill Report**.
 7. [] Find the score from 0 to 100. Then close the Skill Report with **X**.
 8. [] If the score is less than 70, ask Cowork to make the skill better. Do this a maximum of 2 times.
-9. [] Select **New**.
+9. [] Select **New task** (or **New**).
 10. [] Type this prompt, and press **Enter**:
 
     +++Make this week's project status report.+++
 
 11. [] In the **Workspace** panel, in **Plugins**, find **weekly-status-report**.
-12. [] On the left, select **Plugins**. Find **weekly-status-report** in **Added**.
+12. [] On the left, select **Customize** (or **Plugins**). Find **weekly-status-report** in **Added**.
 
 Cowork used your skill, and you did not type the skill name.
 
@@ -156,13 +160,13 @@ Cowork used your skill, and you did not type the skill name.
 
 # Exercise 3: Add a plugin (15 minutes)
 
-1. [] On the left, select **Plugins**.
+1. [] On the left, select **Customize** (or **Plugins**).
 2. [] At the top right, select **Add**, and then select **Upload**.
 3. [] Select **choose a file**. Go to **Desktop** > **LAB652**, and select the file **LAB652-plugin.zip**. Select **Open**.
 4. [] In the **Publish** window, select **Only you**.
 5. [] Select **Publish**.
 6. [] Make sure that you see **LAB652 Status Report Tips** in **Added**.
-7. [] Select **New**, so that Cowork finds the new plugin.
+7. [] Select **New task** (or **New**), so that Cowork finds the new plugin.
 8. [] Type this prompt, and press **Enter**:
 
     +++Make this week's project status report. Add 1 tip from Microsoft Learn about how to write a good status report.+++
@@ -203,7 +207,7 @@ You received the status report by email. You know how to make Cowork do a job on
 
 # Exercise 5: Share the skill and find work for Cowork (10 minutes)
 
-1. [] On the left, select **Plugins**.
+1. [] On the left, select **Customize** (or **Plugins**).
 2. [] In **Added**, select your skill **weekly-status-report**.
 3. [] At the top right, select the **Share** icon.
 4. [] Select **Specific users in your organization**.
@@ -241,7 +245,7 @@ You cannot copy files from the lab computer. To use the lab skill at work, do th
 
 1. Go to ++https://github.com/microsoft/ignite26-LAB652++.
 2. Download the file **SKILL.md** from the **skills/weekly-status-report** folder.
-3. In Cowork at your organization, select **Plugins**.
+3. In Cowork at your organization, select **Customize** (or **Plugins**).
 4. At the top right, select **Add**, and then select **Upload**.
 5. Select **choose a file**, and select the file **SKILL.md**.
 6. Select **Only you**, and then select **Publish**.
