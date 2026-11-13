@@ -99,7 +99,7 @@ You see a Word document with a summary, the status of each project, and the risk
    ```
 
 10. In the side panel, in **Skills**, find `weekly-status-report`.
-11. Select **Customize**.
+11. On the left, select **Plugins**.
 12. Select **Skills**. Find your skill in the list.
 
 Cowork used your skill, and you did not type the skill name.
@@ -111,12 +111,12 @@ Cowork used your skill, and you did not type the skill name.
 ## Exercise 3: Add a plugin (15 minutes)
 
 1. Select the link to the lab plugin in these instructions. The file `LAB652-plugin.zip` goes to your **Downloads** folder.
-2. Select **Customize**.
-3. Select **Plugins**.
-4. Select **Upload plugin**.
-5. Select the file `LAB652-plugin.zip` in your **Downloads** folder.
-6. In the **Share** dialog, select **Only you**.
-7. Select **Apply**.
+2. On the left, select **Plugins**.
+3. At the top right, select **Add**, and then select **Upload**.
+4. Select **choose a file**, and select the file `LAB652-plugin.zip` in your **Downloads** folder.
+5. In the **Publish** window, select **Only you**.
+6. Select **Publish**.
+7. Make sure that you see **LAB652 Status Report Tips** in **Added**.
 8. Start a new task, so that Cowork finds the new plugin.
 9. Type this prompt, and press **Enter**:
 
@@ -158,7 +158,7 @@ You received the status report by email. You know how to make Cowork do a job on
 
 ## Exercise 5: Share the skill and find work for Cowork (10 minutes)
 
-1. Select **Customize**.
+1. On the left, select **Plugins**.
 2. Select **Skills**.
 3. Select your skill `weekly-status-report`.
 4. Select **Share**.
@@ -194,10 +194,9 @@ You cannot copy files from the lab computer. To use the lab skill at work, do th
 
 1. Go to https://github.com/microsoft/ignite26-LAB652.
 2. Download the file `SKILL.md`.
-3. In Cowork at your organization, select **Customize**.
-4. Select **Skills**.
-5. Select the arrow next to **Add**.
-6. Select **Upload skill**.
-7. Select the file `SKILL.md`.
+3. In Cowork at your organization, select **Plugins**.
+4. At the top right, select **Add**, and then select **Upload**.
+5. Select **choose a file**, and select the file `SKILL.md`.
+6. Select **Only you**, and then select **Publish**.
 
 You need a Microsoft 365 Copilot license to use Cowork. The people that you share skills with also need this license. Your IT admin must turn on Cowork.
