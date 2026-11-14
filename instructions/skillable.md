@@ -1,0 +1,255 @@
+@lab.Title
+
+## What you will do
+
+In this lab, you give a weekly job to Copilot Cowork. Cowork does the job and gives you the result. Then you make the job into a skill. You add a plugin, and you make Cowork do the job each week.
+
+Time: 75 minutes. The last 5 minutes are for questions.
+
+**Do not close this window.** If you close it, the lab ends. Minimize it if you need more space.
+
+## Your sign-in details
+
+You use these details to sign in to Microsoft 365:
+
+- **User name**: +++AlexW@@lab.CloudCredential(WWLM365E7).TenantName+++
+- **Temporary Access Pass**: +++@lab.Variable(TAP)+++
+
+> [!note] Text like +++this+++ is type text. Select it, and the lab types it for you.
+
+You only need the admin details if Cowork shows **Request access** in Exercise 0:
+
+- **Admin user name**: +++@lab.CloudCredential(WWLM365E7).AdministrativeUsername+++
+- **Admin Temporary Access Pass**: +++@lab.Variable(TAP2)+++
+
+## Words in this lab
+
+| Word | Meaning |
+|---|---|
+| Cowork | A Copilot mode that does jobs with many steps for you. |
+| Chat | The other Copilot mode. Chat answers questions. Cowork does jobs. |
+| Task | One session with Cowork. Each task has a conversation, a side panel and files. |
+| Side panel | The panel next to the conversation in a task. It shows the progress, the files and the skills. |
+| Skill | Saved instructions that tell Cowork how you do a job. |
+| Skill Report | A score from 0 to 100 that shows the quality of a skill. |
+| Plugin | A package that adds skills and connectors to Cowork. |
+| Connector | A connection that lets Cowork get information from a different service. |
+| MCP server | A service that gives information to Cowork through a connector. |
+| Automation | A prompt that Cowork runs again on a schedule. |
+| Approval card | A small form in the task. Cowork uses it to ask you before it does an action. |
+
+## Your story
+
+You are a project lead at Contoso. Each Monday, you write a project status report. You read the project tracker and the meeting notes. Then you write the report and send it by email. The steps are the same each week, and the work is slow. You can also use this method for any weekly report.
+
+===
+
+# Exercise 0: Get ready (10 minutes)
+
+### Open Cowork
+
+1. [] On the desktop, double-click **Microsoft Edge**. If you see **Personalize your feed**, select **X** to close it.
+2. [] Go to +++https://copilot.cloud.microsoft/cowork+++.
+3. [] Select **Try Cowork**. If you see **Sign in** instead, select **Sign in**.
+4. [] Sign in with your **User name** and **Temporary Access Pass** from the first page of these instructions.
+5. [] If Edge asks **Save your password?**, select **Not now**. If Edge asks to **Sign in to Microsoft Edge**, select **No, thanks**.
+6. [] If you see **Stay signed in?**, select **Yes**.
+7. [] If you see a welcome window, select **X** to close it.
+8. [] Make sure that you see a box where you can type a prompt.
+
+> [!alert] If you see **Request access**, do not select it. Do the steps in **Put the lab files in OneDrive** first. Then do the steps in **Only if you see Request access** at the end of this exercise.
+
+### Put the lab files in OneDrive
+
+1. [] Open a new browser tab.
+2. [] Go to +++https://onedrive.cloud.microsoft+++. You are already signed in.
+3. [] If you see **Get more from your files with Copilot in OneDrive**, select **Not now**.
+4. [] Select **Create or upload**, and then select **Files upload**. If a tip window opens, for example **Build your own AI assistant**, select **Dismiss** and try again.
+5. [] Go to **Desktop** > **LAB652**.
+6. [] Select **Meeting-Notes**. Hold **Ctrl** and select **Project-Tracker**. Select **Open**.
+7. [] Wait until the upload is complete. On the left, select **My files**. You see the 2 files.
+
+You see Cowork in the first tab and the 2 files in OneDrive in the second tab.
+
+> [!hint] If you do not see the **LAB652** folder on the desktop, ask a proctor.
+
+### Only if you see Request access
+
+Your lab organization is new. The lab turns on Copilot credits for you when it starts. If Cowork still shows **Request access**, turn on the credits yourself as the admin. Skip these steps if you see the box where you can type a prompt.
+
+1. [] In Edge, press **Ctrl+Shift+N** to open an InPrivate window.
+2. [] Go to +++https://admin.cloud.microsoft/#/copilot/costmanagement+++.
+3. [] Sign in with your **Admin user name** and **Admin Temporary Access Pass** from the first page of these instructions. If you see **Stay signed in?**, select **No**.
+4. [] If you see a tip window, for example **Tailor search results for your users**, select **X** to close it.
+5. [] Select **Get started**.
+6. [] Make sure that **Use Capacity Packs** is selected. Do not change the other settings.
+7. [] Select **Activate**.
+8. [] Make sure that you see **AI experiences enabled by usage-based billing are now available to all users**.
+9. [] Close the InPrivate window.
+10. [] Wait. This can take 30 minutes. Every 5 minutes, open a new tab and go to +++https://copilot.cloud.microsoft/cowork+++. When you see the box where you can type a prompt, start Exercise 1 in that tab.
+
+> [!hint] If you do not see **Get started**, the credits are already on. Pressing **F5** is not enough, because the old tab does not update. Always open a new tab. If you still see **Request access** after 40 minutes, ask a proctor.
+
+===
+
+# Exercise 1: Give a complex job to Cowork (15 minutes)
+
+1. [] Go back to the Cowork tab.
+2. [] Type this prompt:
+
+    +++Make this week's project status report. Use Project-Tracker.xlsx and Meeting-Notes.docx in my OneDrive. Make the report a Word document with 3 parts: summary, status of each project, and risks. Then make an email draft to me with the report attached. Do not send the email.+++
+
+3. [] Press **Enter**.
+4. [] Read the steps that Cowork shows while it works. The **Workspace** panel on the right shows the progress in **Steps**.
+5. [] Do not type while Cowork works. You can add messages, but for this lab, wait.
+6. [] While you wait, read "About skills" at the end of this exercise.
+7. [] When Cowork stops, find the status report in the **Workspace** panel, in **Output**.
+8. [] Open the status report. If you see **Your privacy option**, select **Close**. When you are done, close the report with **X** to see the **Workspace** panel again.
+9. [] Open Outlook in a new tab: +++https://outlook.cloud.microsoft+++. If you see **Your privacy matters**, select **Continue**.
+10. [] Find the email draft in **Drafts**.
+
+You see a Word document with a summary, the status of each project, and the risks. You also see an email draft with the report attached.
+
+> [!note] Cowork can tell you some things to check, for example that the meeting notes have a different date, or that some table text has a different color. This is normal. You do not need to fix these things for this lab.
+
+> [!hint] If Cowork does not stop after 10 minutes, ask a proctor for the sample report.
+
+> [!knowledge] **Key point:** Cowork made an email draft. It did not send the email. Cowork asks you before it sends an email.
+
+**About skills:** a skill tells Cowork how you like to do a job. When you ask for that job again, Cowork uses the skill. You do not need to explain the steps again.
+
+===
+
+# Exercise 2: Make the process into a skill (15 minutes)
+
+1. [] Go back to the Cowork tab. In the same task, type this prompt:
+
+    +++Make a skill from the steps that you used for this status report. Name the skill weekly-status-report.+++
+
+2. [] Press **Enter**.
+3. [] Cowork can ask you some questions. If it asks, use these answers:
+
+    | If Cowork asks about | Type |
+    |---|---|
+    | Name | +++weekly-status-report+++ |
+    | Description | +++Use this skill when I ask for the weekly project status report.+++ |
+    | Instructions | +++Use Project-Tracker.xlsx and Meeting-Notes.docx in my OneDrive. Write a short and clear report with a summary, the status of each project, and the risks. Always show late projects first. Never send the email.+++ |
+
+    If Cowork asks other questions, answer in your own words.
+
+4. [] Cowork shows an approval card to save the skill (**Copy file**). Select **Approve**.
+5. [] Wait until Cowork says that it made the skill.
+6. [] In the **Workspace** panel, in **Output**, select **skill-quality-report**. This is the **Skill Report**.
+7. [] Find the score from 0 to 100. Then close the Skill Report with **X**.
+8. [] If the score is less than 70, ask Cowork to make the skill better. Do this a maximum of 2 times.
+9. [] Select **New task** (or **New**).
+10. [] Type this prompt, and press **Enter**:
+
+    +++Make this week's project status report.+++
+
+11. [] In the **Workspace** panel, in **Plugins**, find **weekly-status-report**.
+12. [] On the left, select **Customize** (or **Plugins**). Find **weekly-status-report** in **Added**.
+
+Cowork used your skill, and you did not type the skill name.
+
+> [!hint] If Cowork does not use your skill, ask a proctor for the lab skill.
+
+> [!knowledge] **Key point:** Cowork reads the **Description** to decide when to use a skill. Write in the **Description** when Cowork must use the skill.
+
+===
+
+# Exercise 3: Add a plugin (15 minutes)
+
+1. [] On the left, select **Customize** (or **Plugins**).
+2. [] At the top right, select **Add**, and then select **Upload**.
+3. [] Select **choose a file**. Go to **Desktop** > **LAB652**. Select **LAB652-plugin** 1 time (do not double-click it), and then select **Open**.
+4. [] In the **Publish** window, select **Only you**.
+5. [] Select **Publish**.
+6. [] Make sure that you see **LAB652 Status Report Tips** in **Added**.
+7. [] Select **New task** (or **New**), so that Cowork finds the new plugin.
+8. [] Type this prompt, and press **Enter**:
+
+    +++Make this week's project status report. Add 1 tip from Microsoft Learn about how to write a good status report.+++
+
+9. [] In the **Workspace** panel, in **Plugins**, find **LAB652 Status Report Tips**.
+
+The status report has a tip from Microsoft Learn. Cowork used information that is not in your files.
+
+> [!hint] If Cowork says that Word blocked changes for some minutes, wait 2 minutes. Then type +++Try again+++ and press **Enter**. If Cowork shows **Connect**, select **Connect**. You do not need to sign in. If you do not see the plugin, ask a proctor.
+
+> [!knowledge] **Key point:** this plugin has 1 skill and 1 connector. The connector gets information from the Microsoft Learn MCP server. Your IT admin can make plugins available to all users in your organization.
+
+===
+
+# Exercise 4: Make an automation (10 minutes)
+
+1. [] In the same task, type this prompt, and press **Enter**:
+
+    +++Run the weekly status report every Monday at 09:00. Send the report to me by email.+++
+
+2. [] Cowork shows the card **Create recurring task**. If you do not see the card, scroll down in the chat. Make sure that the day is **Monday** and the time is **9:00 AM**. Select **Next**.
+3. [] Cowork shows **Review permissions**. Next to **Outlook**, make sure that **Allow** is selected. Cowork can then send the report to you when you are not there.
+4. [] Make sure that **Run once now** is selected. Cowork does the job 1 time now to test it.
+5. [] Select **Schedule**.
+6. [] Wait until Cowork says that it sent the email. This can take 5 minutes.
+7. [] Go to the Outlook tab. Open **Inbox**. Find the email with the status report.
+8. [] Go back to Cowork. Select **Automations**.
+9. [] Find **Weekly Project Status Report** in **Active**.
+10. [] Point to the automation, and select **More actions** (**...**). Select **Delete**, and then select **Delete** again. The automation will not run after the lab.
+
+You received the status report by email. You know how to make Cowork do a job on a schedule.
+
+> [!hint] If you do not see the email after 10 minutes, ask a proctor.
+
+> [!knowledge] **Key point:** an automation runs when you are not there. In **Review permissions**, you decide which actions Cowork can do without asking you. Select **Ask** if you want Cowork to ask you each time.
+
+===
+
+# Exercise 5: Share the skill and find work for Cowork (10 minutes)
+
+1. [] On the left, select **Customize** (or **Plugins**).
+2. [] In **Added**, select your skill **weekly-status-report**.
+3. [] At the top right, select the **Share** icon.
+4. [] Select **Specific users in your organization**.
+5. [] Type +++Megan+++, and select **Megan Bowen**. Megan is a colleague in your lab organization.
+6. [] Select **Publish**.
+7. [] Select the **Share** icon again. You see Megan Bowen in the list.
+8. [] Select **Copy this link**. You can send this link to the people that you shared the skill with. Then select **Cancel**.
+9. [] Read the checklist below.
+10. [] Think of 1 job from your work.
+11. [] Use the checklist to decide if Cowork can do the job.
+
+You shared a skill, and you know how to find work for Cowork.
+
+> [!hint] If you cannot select **Publish**, make sure that you selected a person. If this does not help, ask a proctor.
+
+> [!knowledge] **Key point:** you can keep a skill for only you, or share it with specific people in your organization. If you change a shared skill, share it again.
+
+### Checklist: is this a good job for Cowork?
+
+1. Does the job have more than 3 steps?
+2. Does the job use more than 1 file or app?
+3. Is the information in Microsoft 365?
+4. Can you describe a good result?
+5. Do you do the job more than 1 time each month?
+6. Can you check the result faster than you can do the job?
+7. Is it easy to fix a mistake in the result?
+
+If you answer "yes" 5 or more times, the job is a good job for Cowork.
+
+===
+
+# After the lab
+
+You cannot copy files from the lab computer. To use the lab skill at work, do these steps:
+
+1. Go to ++https://github.com/microsoft/ignite26-LAB652++.
+2. Download the file **SKILL.md** from the **skills/weekly-status-report** folder.
+3. In Cowork at your organization, select **Customize** (or **Plugins**).
+4. At the top right, select **Add**, and then select **Upload**.
+5. Select **choose a file**, and select the file **SKILL.md**.
+6. Select **Only you**, and then select **Publish**.
+
+You need a Microsoft 365 Copilot license to use Cowork. The people that you share skills with also need this license. Your IT admin must turn on Cowork.
+
+Thank you for attending this lab.
