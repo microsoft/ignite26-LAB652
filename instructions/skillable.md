@@ -67,7 +67,7 @@ You are a project lead at Contoso. Each Monday, you write a project status repor
 4. [] Select **Create or upload**, and then select **Files upload**. If a tip window opens, for example **Build your own AI assistant**, select **Dismiss** and try again.
 5. [] Go to **Desktop** > **LAB652**.
 6. [] Select **Meeting-Notes**. Hold **Ctrl** and select **Project-Tracker**. Select **Open**.
-7. [] Wait until the upload is complete. You see the 2 files in **My files**.
+7. [] Wait until the upload is complete. On the left, select **My files**. You see the 2 files.
 
 You see Cowork in the first tab and the 2 files in OneDrive in the second tab.
 
@@ -104,7 +104,7 @@ Your lab organization is new. The lab turns on Copilot credits for you when it s
 5. [] Do not type while Cowork works. You can add messages, but for this lab, wait.
 6. [] While you wait, read "About skills" at the end of this exercise.
 7. [] When Cowork stops, find the status report in the **Workspace** panel, in **Output**.
-8. [] Open the status report. If you see **Your privacy option**, select **Close**.
+8. [] Open the status report. If you see **Your privacy option**, select **Close**. When you are done, close the report with **X** to see the **Workspace** panel again.
 9. [] Open Outlook in a new tab: +++https://outlook.cloud.microsoft+++. If you see **Your privacy matters**, select **Continue**.
 10. [] Find the email draft in **Drafts**.
 
@@ -187,7 +187,7 @@ The status report has a tip from Microsoft Learn. Cowork used information that i
 
     +++Run the weekly status report every Monday at 09:00. Send the report to me by email.+++
 
-2. [] Cowork shows the card **Create recurring task**. Make sure that the day is **Monday** and the time is **9:00 AM**. Select **Next**.
+2. [] Cowork shows the card **Create recurring task**. If you do not see the card, scroll down in the chat. Make sure that the day is **Monday** and the time is **9:00 AM**. Select **Next**.
 3. [] Cowork shows **Review permissions**. Next to **Outlook**, make sure that **Allow** is selected. Cowork can then send the report to you when you are not there.
 4. [] Make sure that **Run once now** is selected. Cowork does the job 1 time now to test it.
 5. [] Select **Schedule**.

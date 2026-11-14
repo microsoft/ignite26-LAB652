@@ -56,7 +56,7 @@ You see Cowork in the first tab and the 2 files in the second tab.
 5. Do not type while Cowork works. You can add messages, but for this lab, wait.
 6. While you wait, read "About skills" at the end of this exercise.
 7. When Cowork stops, find the status report in the side panel, in **Output folder**.
-8. Open the status report.
+8. Open the status report. When you are done, close the report with **X**.
 9. Open Outlook in a new tab. Find the email draft in **Drafts**.
 
 You see a Word document with a summary, the status of each project, and the risks. You also see an email draft with the report attached.
