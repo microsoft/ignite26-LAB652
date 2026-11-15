@@ -1,29 +1,3 @@
-## Before you're done
-
-This repo has been created for your Microsoft Ignite 2026 session. Here's how to get it ready.
-
-**Easiest path — use the agent (recommended):**
-
-- Open GitHub Copilot Chat and say `help me initialize repo`. The agent will walk you through getting the README populated.
-- When you're ready to publish, say `help me finalize repo`. The agent will clean up unused folders, validate everything, and remove this "Before you're done" section and other extra stuff that attendees don't need to see.
-- Curious how it works? Read the [agent workflow](.github/AGENT-WORKFLOW.md).
-
-**Doing it manually?**
-
-Fill in the sections below yourself, then:
-
-- Delete any placeholder folders you don't need (`data/`, `infra/`, etc.)
-- Delete this "Before you're done" section
-- Delete `.github/agents/`, `.github/tests/`, `.github/copilot-instructions.md`, and `.github/AGENT-WORKFLOW.md` — these are template tooling, not part of your published repo
-
-**Folder conventions:**
-
-- Attendee step-by-step guidance goes in `instructions/`. If you use MkDocs or a docs site instead, put it in `docs/` and link to it from this README.
-- Reference material and background reading go in `docs/`.
-- You can add a `.devcontainer/` folder if needed.
-
----
-
 <a name="start-building"></a>
 
 <p align="center">
@@ -43,33 +17,34 @@ Agent usage is up 15× year over year, and more multi-step workflows can now be 
 
 If you're following along during a live session:
 
-1. Step 1
-2. Step 2
-3. Open [`instructions/`](instructions/README.md) when this session includes
-   attendee step-by-step guidance
+1. Sign in to the lab computer with the details at the top of the lab instructions.
+2. Follow the steps in the lab instructions. They are the same as [`instructions/lab-manual.md`](instructions/lab-manual.md).
+3. Ask the proctors for help if Cowork shows **Request access**.
 
 #### On your own
 
 If you're learning at your own pace:
 
-1. Clone this repository
-2. Set up your environment
-3. Follow the session guidance in [`instructions/`](instructions/README.md), or
-   use the linked docs-site entry point when this repository uses that pattern
+1. You need a Microsoft 365 work account with a Microsoft 365 Copilot license and access to [Copilot Cowork](https://learn.microsoft.com/copilot/cowork/).
+2. Upload the 2 files in [`data/`](data/) (`Project-Tracker.xlsx` and `Meeting-Notes.docx`) to your OneDrive.
+3. Follow the steps in [`instructions/lab-manual.md`](instructions/lab-manual.md). The finished skill is in [`skills/weekly-status-report/`](skills/weekly-status-report/SKILL.md) and the plugin is in [`src/LAB652-plugin.zip`](src/LAB652-plugin.zip).
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Outcome 1
-- Outcome 2
-- Outcome 3
+- Give a job with many steps to Copilot Cowork and check the result before anything is sent.
+- Turn the job into a reusable skill and improve it with the Skill Report.
+- Extend Cowork with a plugin that adds a skill and a connector (Microsoft Learn MCP Server).
+- Run the job on a schedule with an automation, and share the skill with a colleague.
 
 ### 💻 Technologies used
 
-- Technology 1
-- Technology 2
-- Technology 3
+- [Microsoft 365 Copilot](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-overview)
+- [Copilot Cowork](https://learn.microsoft.com/copilot/cowork/)
+- [Microsoft Learn MCP Server](https://learn.microsoft.com/training/support/mcp)
+- [Microsoft OneDrive](https://learn.microsoft.com/onedrive/)
+- [Microsoft Outlook](https://learn.microsoft.com/outlook/)
 
 ### 📚 Continue your learning
 
@@ -101,17 +76,12 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
 
 ### 👥 Content owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/babrekel">
+        <img src="https://github.com/babrekel.png" width="100px;" alt="Bas Brekelmans"/><br />
+        <sub><b>Bas Brekelmans</b></sub></a><br />
+            <a href="https://github.com/babrekel" title="talk">📢</a>
     </td>
 </tr></table>
 
