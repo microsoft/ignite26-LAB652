@@ -188,6 +188,35 @@ You shared a skill, and you know how to find work for Cowork.
 
 If you answer "yes" 5 or more times, the job is a good job for Cowork.
 
+## Optional exercise: Use a project (10 minutes)
+
+Do this exercise only if you have time.
+
+1. Go to the Cowork tab. On the left, in **Projects**, select **Add project here**.
+2. In **Project name**, type `Weekly Status`. Select **Create**.
+3. At the top right, select **More actions** (**...**). Select **Edit instructions**.
+4. Type these instructions:
+
+    `Write a short and clear report with a summary, the status of each project, and the risks. Always show late projects first. Never send the email.`
+
+5. Select **Save**.
+6. Select **Project context**. Select **Upload files**.
+7. Go to **Desktop** > **LAB652**. Select **Meeting-Notes**. Hold **Ctrl** and select **Project-Tracker**. Select **Open**.
+8. Wait until you see **Uploaded** next to the 2 files.
+9. In the box at the top, make sure that **Cowork** is selected. Type this prompt, and press **Enter**:
+
+    `Make this week's project status report as a Word document.`
+
+10. Wait until Cowork makes the report. This can take 5 minutes.
+11. In the **Workspace** panel, in **References**, find **Meeting-Notes.docx** and **Project-Tracker.xlsx**.
+12. On the left, in **Weekly Status**, select **View project**. In **Recent**, you see your task.
+
+Cowork used the files and the instructions of the project. Your prompt was short, and you did not name the files.
+
+> If you do not see **Projects** on the left, select the sidebar icon at the top left. If Cowork does not finish after 10 minutes, ask a proctor.
+
+**Key point:** a project keeps files and instructions together. Each task that you start in the project uses them. Use a project for work that has many tasks, for example a team event or a monthly budget.
+
 ## After the lab
 
 You cannot copy files from the lab computer. To use the lab skill at work, do these steps:
