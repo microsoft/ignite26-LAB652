@@ -212,7 +212,7 @@ You received the status report by email. You know how to make Cowork do a job on
 3. [] At the top right, select the **Share** icon.
 4. [] Select **Specific users in your organization**.
 5. [] Type +++Megan+++, and select **Megan Bowen**. Megan is a colleague in your lab organization.
-6. [] Select **Publish**.
+6. [] Select **Publish**. If you see **Apply** instead, select **Apply**.
 7. [] Select the **Share** icon again. You see Megan Bowen in the list.
 8. [] Select **Copy this link**. You can send this link to the people that you shared the skill with. Then select **Cancel**.
 9. [] Read the checklist below.
@@ -221,7 +221,7 @@ You received the status report by email. You know how to make Cowork do a job on
 
 You shared a skill, and you know how to find work for Cowork.
 
-> [!hint] If you cannot select **Publish**, make sure that you selected a person. If this does not help, ask a proctor.
+> [!hint] If you cannot select **Publish** or **Apply**, make sure that you selected a person. If this does not help, ask a proctor.
 
 > [!knowledge] **Key point:** you can keep a skill for only you, or share it with specific people in your organization. If you change a shared skill, share it again.
 
@@ -248,7 +248,7 @@ You cannot copy files from the lab computer. To use the lab skill at work, do th
 3. In Cowork at your organization, select **Customize** (or **Plugins**).
 4. At the top right, select **Add**, and then select **Upload**.
 5. Select **choose a file**, and select the file **SKILL.md**.
-6. Select **Only you**, and then select **Publish**.
+6. If Cowork shows a **Publish** window, select **Only you**, and then select **Publish**.
 
 You need a Microsoft 365 Copilot license to use Cowork. The people that you share skills with also need this license. Your IT admin must turn on Cowork.
 
